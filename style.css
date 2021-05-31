@@ -1,0 +1,491 @@
+html {
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro",
+    "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+    "メイリオ", sans-serif;
+  user-select: none;
+}
+
+body {
+  /*
+  Background image from 
+  Copyright (C) INSTITUTE FOR FIRE SAFETY & DISASTER PREPAREDNESS
+  http://www.saigaichousa-db-isad.jp/drsdb_photo/photoSearch.do
+  */
+  background: url(saigai_back_1.jpg) top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  margin-top: 35px;
+}
+
+h1 a {
+  display: block;
+  width: 650px;
+  height: 150px;
+  font-size: 0;
+  background: url(saigai_logo.png) top/650px auto no-repeat;
+  /*background-color: rgb(245, 245, 220,0.55);*/
+  /*border-radius: 5px;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.logo {
+  margin-top: -15px;
+}
+
+/*ページ全体のレイアウト*/
+.main {
+  display: block;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(220, 234, 255, 0.85);
+  border-radius: 15px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+/*第一見出しと解説レイアウト*/
+.system_midashi {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(30, 54, 106);
+}
+
+.system_kaisetsu {
+  border-style: dashed;
+  border-width: 3.5px;
+  border-color: rgb(0, 0, 139, 0.8);
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 139, 0.8);
+}
+
+/*フォーム欄レイアウト*/
+.form_setsumei {
+  font-size: 30px;
+  color: rgba(139, 0, 81, 0.8);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: rgb(207, 1, 162);
+  height: 45px;
+}
+
+input.kensaku {
+  transition: 0.3s;
+  background-color: rgb(241, 241, 241);
+  color: rgb(207, 1, 162);
+  font-weight: bold;
+  height: 55px;
+}
+
+input.kensaku:hover {
+  transition: 0.3s;
+  border-color: white;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(207, 1, 162);
+}
+
+/*小見出しのレイアウト*/
+.system_komidashi {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(224, 71, 0, 0.8);
+  border-bottom: dashed 5px rgba(224, 71, 0, 0.8);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*検索結果*/
+.kekka {
+  display: block;
+  background-color: rgb(250, 250, 250, 0.6);
+  height: 400px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.kekka_naibu {
+  font-size: 27px;
+  color: rgb(0, 0, 139, 0.8);
+  font-weight: bold;
+}
+
+img {
+  pointer-events: none;
+}
+
+.result_img {
+  width: 145px;
+  height: 145px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.kaisetsu_if {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgba(30, 38, 106, 0.9);
+  font-size: 15px;
+}
+
+.kaisetsu_back {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  background-color: rgb(250, 250, 250, 0.6);
+  border-radius: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/*詳細情報*/
+.syousai_midashi {
+  font-size: 25px;
+  color: rgb(0, 0, 139, 0.8);
+  font-weight: bold;
+}
+
+.syousai {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  background-color: rgb(250, 250, 250, 0.6);
+  border-radius: 15px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-top: 25px;
+}
+
+/*検索地点の災害予想結果・根拠*/
+.table_chimei {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(255, 2, 255, 0.07);
+}
+
+/*迷信上では災害が予想されなかった場合*/
+.chimei_saiwai {
+  display: inline;
+  margin-top: 10px;
+  color: rgb(30, 54, 106, 0.9);
+  font-size: 23px;
+}
+
+.chimei_meishin {
+  display: inline;
+  margin-top: 10px;
+  color: rgb(199, 0, 0, 0.7);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*地名エラー*/
+.chimei_false {
+  display: inline block;
+  margin-top: 15px;
+  color: rgb(30, 54, 106, 0.9);
+  font-size: 23px;
+}
+
+/*表として出力*/
+table.chimei_table {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: solid 3px rgba(195, 0, 255, 0.3);
+  width: 300px;
+}
+
+td.chimei_rei {
+  font-weight: bold;
+  width: 90px;
+}
+
+td.chimei_rei,
+td.chimei_kaisetsu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 3px rgba(195, 0, 255, 0.3);
+  text-align: center;
+  color: rgba(59, 0, 77, 0.9);
+}
+
+/*検索された住所と詳細情報*/
+.jusyo_kana_setsumei {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(30, 54, 106, 0.9);
+  font-weight: bold;
+}
+
+.jusyo_setsumei {
+  margin-top: 0px;
+  font-size: 23px;
+  color: rgb(30, 54, 106, 0.9);
+  font-weight: bold;
+}
+
+/*検索地点の代表経度・緯度*/
+.idokeido_setsumei {
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgb(30, 54, 106, 0.9);
+  font-weight: bold;
+}
+
+/*検索地点の代表海抜*/
+.kaibatsu_setsumei {
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgb(30, 54, 106, 0.9);
+  font-weight: bold;
+}
+
+/*検索地点周辺の土砂災害の危険性*/
+.dosya_setsumei {
+  margin-top: 10px;
+  font-size: 45px;
+  color: rgb(30, 54, 106, 0.9);
+  font-weight: bold;
+}
+
+.dosya_kiken {
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgba(255, 0, 0, 0.8);
+  font-weight: bold;
+}
+
+a.dosya_url {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  transition: color 0.2s;
+  color: rgba(28, 139, 0, 0.8);
+  font-weight: bold;
+  text-decoration: underline 4px;
+}
+
+a.dosya_url:hover {
+  font-size: 20px;
+  color: rgba(102, 216, 74, 0.8);
+  font-weight: bold;
+  text-decoration: underline 4px;
+  transition: color 0.2s;
+}
+
+/*検索地点周辺の最大M・断層数*/
+.dansou_kaisetsu {
+  font-size: 16px;
+  color: rgb(30, 54, 106);
+  font-weight: bold;
+}
+
+.shindo_setsumei {
+  display: inline-block;
+  font-size: 25px;
+  color: rgb(30, 54, 106);
+  font-weight: bold;
+}
+
+.shindo_4 {
+  display: inline-block;
+  font-size: 50px;
+  color: rgb(30, 54, 106);
+  font-weight: bold;
+}
+
+.shindo_5j,
+.shindo_5k,
+.shindo_6j,
+.shindo_6k,
+.shindo_7 {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgba(255, 0, 0, 0.8);
+  font-weight: bold;
+}
+
+/*検索地点周辺の断層名一覧*/
+details {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(30, 54, 106);
+}
+
+summary {
+  font-size: 20px;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+summary:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: rgb(30, 54, 106, 0.6);
+}
+
+ul {
+  color: rgb(30, 54, 106);
+  font-size: 18px;
+  border-top: solid #1e366a 1px;
+  border-bottom: solid #1e366a 1px;
+  padding: 0.5em 0 0.5em 1.5em;
+  list-style: none;
+}
+
+.table_dansou {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(51, 255, 0, 0.13);
+}
+
+table.dansou_table {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border: solid 3px rgba(51, 255, 0, 0.5);
+  width: 300px;
+}
+
+th.dansou_name,
+th.dansou_type,
+th.dansou_M,
+td.dansou_data {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 3px rgba(51, 255, 0, 0.5);
+  text-align: center;
+  color: rgb(0, 126, 0);
+}
+
+/*検索地点の直近短時間降水量*/
+.table_kousui {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(2, 255, 255, 0.15);
+}
+
+table.kousui_table {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border: solid 3px rgba(0, 162, 255, 0.5);
+  width: 300px;
+}
+
+th.kousui_mm,
+th.kousui_date,
+td.kousui_data {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 3px rgba(0, 162, 255, 0.5);
+  color: rgb(0, 0, 139, 0.8);
+}
+
+td.kousui_data_yosoku {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 3px rgba(4, 0, 255, 0.5);
+  color: rgba(0, 21, 139, 0.8);
+}
+
+/*このWebサービスの目的*/
+.mokuteki {
+  font-size: 16.5px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(30, 54, 106);
+}
+
+.mokuteki_back {
+  background: url(saimei_back.png) top/380px auto no-repeat;
+}
+
+/*WebAPIサービス利用元クレジット表示*/
+a.credit {
+  padding: 15px;
+}
+
+.credit_url {
+  color: rgb(30, 54, 106);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline 2px;
+  margin-bottom: 10px;
+}
+
+.credit_url:visited {
+  color: rgb(30, 54, 106);
+}
+
+/*著作権表示フッター*/
+footer {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
