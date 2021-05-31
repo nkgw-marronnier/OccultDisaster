@@ -695,7 +695,7 @@
     /*WebAPI利用元クレジット表示*/
     echo "<div class='syousai'>";
     echo "<div class='syousai_midashi'>WebAPI・画像利用元クレジット</div>";
-    echo "<a class='credit' href='https://developer.yahoo.co.jp/about'><img src='https://s.yimg.jp/images/yjdn/common/yjdn_attbtn1_250_34.gif' width='250' height='34' title='Webサービス by Yahoo! JAPAN' alt='Webサービス by Yahoo! JAPAN' border='0' style='margin:15px 15px 15px 15px' target='_blank' rel='noopener noreferrer'></a>";
+    echo "<a class='credit' href='https://developer.yahoo.co.jp/about' target='_blank' rel='noopener noreferrer'><img src='https://s.yimg.jp/images/yjdn/common/yjdn_attbtn1_250_34.gif' width='250' height='34' title='Webサービス by Yahoo! JAPAN' alt='Webサービス by Yahoo! JAPAN' border='0' style='margin:15px 15px 15px 15px' target='_blank' rel='noopener noreferrer'></a>";
     echo "<a class='credit_url' href='https://www.livlog.xyz/houkaichimei/' target='_blank' rel='noopener noreferrer'><br>崩壊地名API © LivLog llc. All rights reserved.</a>";
     echo "<a class='credit_url' href='http://www.j-shis.bosai.go.jp' target='_blank' rel='noopener noreferrer'><br>© 2011 国立研究開発法人 防災科学技術研究所</a>";
     echo "<a class='credit_url' href='http://www.saigaichousa-db-isad.jp/drsdb_photo/photoSearch.do' target='_blank' rel='noopener noreferrer'><br>© 財団法人消防科学総合センター</a>";
