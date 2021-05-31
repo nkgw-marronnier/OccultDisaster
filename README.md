@@ -15,4 +15,5 @@
 ## 使用Web APIクレジット表記
 <p align="center">
   <a href="https://developer.yahoo.co.jp/sitemap/"><img src="https://s.yimg.jp/images/yjdn/common/yjdn_attbtn1_250_34.gif" width="250" height="34" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a>
+  <a href="https://livlog.jp"><img src="https://livlog.jp/wp-content/uploads/2016/08/logo.svg" width="250" height="34" title="LivLog Lab+" alt="LivLog Lab+" border="0" style="margin:15px 15px 15px 15px"></a>
 </p>
