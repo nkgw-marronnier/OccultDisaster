@@ -92,7 +92,7 @@
     © LivLog llc. All rights reserved.
     https://www.livlog.xyz/houkaichimei/
     */
-    $req1 = "https://livlog.xyz/houkaichimei/check?query=" . $chimei;
+    $req1 = "https://livlog.xyz/webapi/collapse/check?query=" . $chimei;
 
     //崩壊地名APIを用いてJSONデータをダウンロードする
     $houkai_json = @file_get_contents($req1);
