@@ -1,7 +1,7 @@
-# OccultDisaster
+# OccultDisaster (災害地名迷信予測 -SDLPS-)
 大学課題で作成した地名から災害を予想するWEBサービス "災害地名迷信予測".
 
-[災害地名迷信予測 -SDLPS-](https://www.domei-sha.com/portfolio/sdlps/sdlps.php)
+[災害地名迷信予測 -SDLPS- の閲覧はこちらから.](https://www.domei-sha.com/portfolio/sdlps/sdlps.php)
 
 ## 使用Web API
 * [崩壊地名](https://www.livlog.xyz/houkaichimei/)
