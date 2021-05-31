@@ -16,6 +16,6 @@
 <p align="center">
   <a href="https://developer.yahoo.co.jp/sitemap/"><img src="https://s.yimg.jp/images/yjdn/common/yjdn_attbtn1_250_34.gif" width="250" height="34" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a>
   <a href="https://livlog.jp"><img src="https://livlog.jp/wp-content/uploads/2016/08/logo.svg" width="250" height="34" title="LivLog Lab+" alt="LivLog Lab+" border="0" style="margin:15px 15px 15px 15px"></a>
-  <a href="https://www.j-shis.bosai.go.jp"><img src="https://www.j-shis.bosai.go.jp/Portal/wp-content/themes/jshis-v2.1.12/images/nied_logo.png" width="150" height="34" title="防災科研" alt="防災科研" border="0" style="margin:15px 15px 15px 15px"></a>
+  <a href="https://www.j-shis.bosai.go.jp"><img src="https://www.j-shis.bosai.go.jp/Portal/wp-content/themes/jshis-v2.1.12/images/nied_logo.png" width="150" height="34" title="防災科研" alt="防災科研" border="0" style="margin:15px 15px 15px 15px"></a><br>
   <a href="http://www.saigaichousa-db-isad.jp/drsdb_photo/photoSearch.do">Copyright (C) INSTITUTE FOR FIRE SAFETY & DISASTER PREPAREDNESS</a>
 </p>
